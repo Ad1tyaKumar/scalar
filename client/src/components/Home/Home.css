@@ -1,0 +1,190 @@
+.main {
+  background-color: lightgray;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main > h3 {
+  margin-bottom: 1%;
+}
+
+.error {
+  font-size: 0.8vmax;
+  color: red;
+  margin-top: 2%;
+}
+
+.container {
+  background-color: white;
+  height: 50vmax;
+  width: 50vmax;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.filter1 {
+  border-style: solid;
+  border-width: 1px;
+  padding: 0% 1%;
+  font-size: 0.85vmax;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.filter1 > i {
+  margin-left: 2%;
+}
+
+.filter2 {
+  border-style: solid;
+  border-width: 1px;
+  padding: 0% 0.5%;
+  font-size: 0.85vmax;
+  border-radius: 5px;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.filter2 > p {
+  cursor: pointer;
+}
+
+.container > div {
+  display: flex;
+  width: 23vmax;
+  /* background-color: red; */
+}
+.container > div:nth-child(3) {
+  /* background-color: red; */
+  justify-content: space-between;
+  margin-bottom: 0%;
+}
+
+.checkbox {
+  display: flex;
+  /* width: 100%; */
+}
+.checkbox > input {
+  cursor: pointer;
+  outline: none;
+  margin-right: 1%;
+}
+.checkbox > p {
+  font-size: 1vmax;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.container > p:first-child {
+  text-align: center;
+  margin: 3%;
+}
+.container > p:nth-child(2) {
+  text-align: center;
+  font-size: 1.2vmax;
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+.student {
+  height: 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 1vmax;
+  margin: 3%;
+  margin-bottom: 0;
+  width: 23vmax;
+  position: relative;
+  font-size: 1vmax;
+}
+.student > div {
+  display: flex;
+  margin: 3%;
+  width: 30%;
+  font-size: 0.82vmax;
+  white-space: nowrap;
+}
+.profile {
+  border-style: solid;
+  border-radius: 100%;
+  width: 3vmax;
+  height: 3vmax;
+  border-width: 1px;
+  border-color: grey;
+  /* margin-right: 5%; */
+}
+.student > div > div:nth-child(2) {
+  font-size: 0.9vmax;
+  margin-left: 5%;
+}
+.actions {
+  position: absolute;
+  top: 20%;
+  right: 0%;
+  white-space: nowrap;
+}
+
+.actions > div:nth-child(2) {
+  position: absolute;
+  left: 120%;
+}
+
+.actions > div {
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalDivParent {
+  display: flex;
+  width: 50%;
+  height: 30%;
+  flex-direction: column;
+  background-color: white;
+  align-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.modalDivParent > div:last-child {
+  background-color: royalblue;
+  color: white;
+  width: 20%;
+  margin-left: 40%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.modalDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalDiv > div {
+  margin: 1%;
+}
+.submit {
+  background-color: #d20000;
+  color: white;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 5%;
+  cursor: pointer;
+  font-size: 1vmax;
+}
+.submit > p {
+  margin-left: 35%;
+}
+
+.nostudents {
+  margin-top: 10%;
+}
