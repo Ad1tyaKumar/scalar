@@ -1,3 +1,3 @@
-const backEndUrl = "https://scalar-emak.onrender.com/api/v1";
+const backEndUrl = "https://scalar-emak.onrender.com";
 
 export default backEndUrl;
